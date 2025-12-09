@@ -32,6 +32,9 @@ h4 {
     transform: scale(1.1);
 }
 
+.noBackdropTransparency .detailPagePrimaryContainer, .noBackdropTransparency .detailPageSecondaryContainer {
+    background-color: transparent !important;
+}
 /*  ###### Desktop Layout ##### */
 
 .layout-desktop .detailLogo {
